@@ -1,0 +1,127 @@
+/* Pricipal */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+
+  background-color: rgb(255, 166, 0);
+  color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Form */
+
+.forms {
+  position: relative;
+  top: 50px;
+}
+
+.forms .logop {
+  width: 25%;
+}
+
+.forms input {
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+}
+
+.forms input:hover {
+  border-radius: 20px;
+}
+
+.forms p {
+  font-size: 1.1em;
+  position: relative;
+  top: -5px;
+}
+
+.forms .see1 {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.forms .see2 {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  cursor: pointer;
+}
+
+.forms span {
+  font-size: 1.1em;
+}
+
+.forms .finalizar {
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  position: relative;
+  top: 10px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  transition: 0.3s ease-in-out;
+  background-color: orangered;
+  color: #fff;
+  cursor: pointer;
+  
+}
+
+.forms .finalizar:hover {
+  border-radius: 20px;
+}
+
+
+/* Main */
+
+
+main .pedidof {
+  width: 60%;
+  position: relative;
+  top: 150px;
+  left: 50px;
+}
+
+main .voltar {
+  position: relative;
+  top: 110px;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 1.1em;
+  border: none;
+  outline: none;
+  font-weight: 900;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+main .voltar:hover {
+  background-color: orangered;
+  border-radius: 10em;
+  color: #fff;
+}

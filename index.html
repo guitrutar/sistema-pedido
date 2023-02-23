@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pedido - @guitrutar</title>
+  <script src="js/scripts.js" defer></script>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300&display=swap" rel="stylesheet">
+</head>
+<body>
+  <form class="forms" align="center">
+    <img class="logop" src="img/logopedido.png" alt="logo"><br><br>
+
+    <input type="text" name="nome" id="nome" placeholder="Nome..."><br><br>
+    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome..."><br><br>
+    <input type="email" name="email" id="email" placeholder="user@email.com..."><br><br>
+
+    <p>Selecione o tipo de Molho</p>
+    <select class="see1" id="se1" oninput="getValue()">
+      <option value="Molho Italiano">Molho Italiano</option>
+      <option value="Molho Americano">Molho Americano</option>
+    </select><br><br>
+
+    <p>Selecione o tipo de Hamburguer</p>
+    <select class="see2" id="se2" oninput="getValue()">
+      <option value="BaconShot">Pão Brioche, Queijo Cheddar, Bacon 3x</option>
+      <option value="CheddarAngry">Pão Brioche, Queijo Cheddar 3x, Carne</option>
+    </select><br><br>
+
+    <p>Pedido:</p>
+    <span id="result"></span><br>
+    <span id="result2"></span><br>
+
+    <button type="button" class="finalizar" onclick="window.location.href='pedidofinalizado.html';">Finalizar Pedido</button>
+  </form>
+</body>
+</html>
